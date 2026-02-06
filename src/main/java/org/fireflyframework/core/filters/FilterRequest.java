@@ -73,7 +73,7 @@ public class FilterRequest<T> {
     @Schema(description = "Range filters for numeric fields")
     private RangeFilter rangeFilters;
 
-    @Schema(description = "Pagination and sorting parameters", required = true)
+    @Schema(description = "Pagination and sorting parameters", requiredMode = Schema.RequiredMode.REQUIRED)
     private PaginationRequest pagination;
 
     @Schema(description = "Filter options for customizing filter behavior")
