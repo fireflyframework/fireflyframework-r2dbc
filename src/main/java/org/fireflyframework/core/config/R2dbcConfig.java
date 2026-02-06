@@ -1,6 +1,6 @@
-package com.firefly.common.core.config;
+package org.fireflyframework.core.config;
 
-import com.firefly.common.core.filters.FilterUtils;
+import org.fireflyframework.core.filters.FilterUtils;
 import jakarta.annotation.PostConstruct;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.r2dbc.core.R2dbcEntityTemplate;

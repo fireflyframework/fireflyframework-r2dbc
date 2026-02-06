@@ -4,7 +4,7 @@ A comprehensive reactive database connectivity library for the Firefly platform,
 
 ## Overview
 
-The lib-common-r2dbc library is a core component of the Firefly platform that provides powerful utilities for working with reactive database connections using Spring Data R2DBC. It simplifies common database operations with a focus on:
+The fireflyframework-r2dbc library is a core component of the Firefly platform that provides powerful utilities for working with reactive database connections using Spring Data R2DBC. It simplifies common database operations with a focus on:
 
 - **Reactive Programming**: Built on Project Reactor for non-blocking database operations
 - **Advanced Filtering**: Flexible and type-safe filtering capabilities
@@ -52,8 +52,8 @@ Add the following dependency to your `pom.xml`:
 
 ```xml
 <dependency>
-    <groupId>com.firefly</groupId>
-    <artifactId>lib-common-r2dbc</artifactId>
+    <groupId>org.fireflyframework</groupId>
+    <artifactId>fireflyframework-r2dbc</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 </dependency>
 ```
@@ -67,7 +67,7 @@ Ensure you have access to the GitHub Packages repository:
     <repository>
         <id>github</id>
         <name>GitHub Packages</name>
-        <url>https://maven.pkg.github.com/firefly-oss/lib-common-r2dbc</url>
+        <url>https://maven.pkg.github.org/fireflyframework-oss/fireflyframework-r2dbc</url>
     </repository>
 </repositories>
 ```
@@ -377,7 +377,7 @@ FilterRequest<UserFilter> request = FilterRequest.<UserFilter>builder()
 
 ## Contributing
 
-Contributions to the lib-common-r2dbc library are welcome. Please follow these steps:
+Contributions to the fireflyframework-r2dbc library are welcome. Please follow these steps:
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/your-feature`)

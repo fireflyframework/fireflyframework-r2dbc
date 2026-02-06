@@ -1,9 +1,9 @@
-package com.firefly.common.core.filters;
+package org.fireflyframework.core.filters;
 
-import com.firefly.common.core.queries.PaginationRequest;
-import com.firefly.common.core.queries.PaginationResponse;
-import com.firefly.common.core.queries.PaginationUtils;
-import com.firefly.core.utils.annotations.FilterableId;
+import org.fireflyframework.core.queries.PaginationRequest;
+import org.fireflyframework.core.queries.PaginationResponse;
+import org.fireflyframework.core.queries.PaginationUtils;
+import org.fireflyframework.utils.annotations.FilterableId;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

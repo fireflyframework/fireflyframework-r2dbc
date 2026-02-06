@@ -1,6 +1,6 @@
-package com.firefly.common.core.filters;
+package org.fireflyframework.core.filters;
 
-import com.firefly.common.core.queries.PaginationRequest;
+import org.fireflyframework.core.queries.PaginationRequest;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.AllArgsConstructor;

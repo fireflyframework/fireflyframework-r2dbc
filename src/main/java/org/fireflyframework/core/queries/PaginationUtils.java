@@ -1,4 +1,4 @@
-package com.firefly.common.core.queries;
+package org.fireflyframework.core.queries;
 
 import org.springframework.data.domain.Pageable;
 import reactor.core.publisher.Flux;

@@ -1,6 +1,6 @@
-package com.firefly.common.core.filters;
+package org.fireflyframework.core.filters;
 
-import com.firefly.core.utils.annotations.FilterableId;
+import org.fireflyframework.utils.annotations.FilterableId;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

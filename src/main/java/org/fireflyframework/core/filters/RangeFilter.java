@@ -1,4 +1,4 @@
-package com.firefly.common.core.filters;
+package org.fireflyframework.core.filters;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.AllArgsConstructor;

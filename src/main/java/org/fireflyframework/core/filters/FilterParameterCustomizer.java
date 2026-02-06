@@ -1,6 +1,6 @@
-package com.firefly.common.core.filters;
+package org.fireflyframework.core.filters;
 
-import com.firefly.core.utils.annotations.FilterableId;
+import org.fireflyframework.utils.annotations.FilterableId;
 import io.swagger.v3.oas.models.Operation;
 import io.swagger.v3.oas.models.media.BooleanSchema;
 import io.swagger.v3.oas.models.media.IntegerSchema;

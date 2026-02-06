@@ -1,4 +1,4 @@
-package com.firefly.common.core.queries;
+package org.fireflyframework.core.queries;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.AllArgsConstructor;

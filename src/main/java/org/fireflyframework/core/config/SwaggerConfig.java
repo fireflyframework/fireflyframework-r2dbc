@@ -1,6 +1,6 @@
-package com.firefly.common.core.config;
+package org.fireflyframework.core.config;
 
-import com.firefly.common.core.filters.FilterParameterCustomizer;
+import org.fireflyframework.core.filters.FilterParameterCustomizer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

@@ -1,4 +1,4 @@
-package com.firefly.common.core.config;
+package org.fireflyframework.core.config;
 
 import io.r2dbc.spi.ConnectionFactory;
 import org.springframework.context.annotation.Bean;
