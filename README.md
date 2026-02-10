@@ -1,5 +1,7 @@
 # Firefly R2DBC Common Library
 
+[![CI](https://github.com/fireflyframework/fireflyframework-r2dbc/actions/workflows/ci.yml/badge.svg)](https://github.com/fireflyframework/fireflyframework-r2dbc/actions/workflows/ci.yml)
+
 A comprehensive reactive database connectivity library for the Firefly platform, providing advanced filtering, pagination, and transaction management capabilities for Spring Data R2DBC applications.
 
 ## Overview
