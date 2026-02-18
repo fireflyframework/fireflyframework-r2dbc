@@ -2,14 +2,14 @@ package org.fireflyframework.core.config;
 
 import org.fireflyframework.core.filters.FilterUtils;
 import jakarta.annotation.PostConstruct;
-import org.springframework.context.annotation.Configuration;
+import org.springframework.boot.autoconfigure.AutoConfiguration;
 import org.springframework.data.r2dbc.core.R2dbcEntityTemplate;
 
-@Configuration
-public class R2dbcConfig {
+@AutoConfiguration
+public class R2dbcAutoConfiguration {
     private final R2dbcEntityTemplate template;
 
-    public R2dbcConfig(R2dbcEntityTemplate template) {
+    public R2dbcAutoConfiguration(R2dbcEntityTemplate template) {
         this.template = template;
     }
 
