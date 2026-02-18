@@ -53,7 +53,7 @@ This module is typically used by domain and data-layer microservices that requir
 <dependency>
     <groupId>org.fireflyframework</groupId>
     <artifactId>fireflyframework-r2dbc</artifactId>
-    <version>26.02.04</version>
+    <version>26.02.05</version>
 </dependency>
 ```
 
