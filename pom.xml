@@ -53,6 +53,13 @@
             <artifactId>fireflyframework-utils</artifactId>
             <version>${project.version}</version>
         </dependency>
+
+        <!-- Observability: unified metrics, tracing, health, structured logging (OTel-backed) -->
+        <dependency>
+            <groupId>org.fireflyframework</groupId>
+            <artifactId>fireflyframework-observability</artifactId>
+            <version>${project.version}</version>
+        </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
